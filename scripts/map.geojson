@@ -1,31 +1,109 @@
 var geoJson = [{
   "type": "FeatureCollection",
-  "features": [
-    {
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "title": "Brandenburg Gate",
+      "marker-size": "medium",
+      "marker-color": "#3366FF",
+      "marker-symbol": "star-stroked",
+      "images": [
+        ['<img src="images/Brandenburger_Tor_abends.jpg" />',
+          "The Brandenburg Gate."
+        ],
+        ['<img src="images/Brandenburger2.jpg" />',
+          "The Brandengurb Gate quadriga at night."
+        ]
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.377674",
+        "52.516224"
+      ]
+    }
+    },{
       "type": "Feature",
       "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
+        "title": "Reichstag Building",
+        "marker-size": "medium",
+        "marker-color": "#3366FF",
+        "marker-symbol": "star-stroked",
+        "images": [
+          ['<img src="images/14380126355_158cfdf22e_q.jpg" />',
+            "Old Reichstag Building by Stuart Rankin."
+          ]
+        ]
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "13.377674",
-          "52.516224"
+          "13.376187",
+          "52.51862"
         ]
-      }
-      }
-    ,
-    {
+    }
+    },{
       "type": "Feature",
       "properties": {
-        "title": “Koeningsplatz”,
+        "title": "Wintergarten",
         "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/1280px-Königsplatz_Berlin,_um_1880.jpg", "The Königsplatz with the Raczyński Palace in 1880."],["images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg", "The Reichstag building."]]
+        "marker-color": "#3366FF",
+        "marker-symbol": "star-stroked",
+        "images": [
+          ['<img src="images/5885669673_61db5ac507_q.jpg" />',
+            "wintergarten berlin by trash world."
+          ],
+          ['<img src="images/Bundesarchiv_Bild_102-13190,_Berlin,_Akrobatenvorführung.jpg" />',
+            "Berlin, Akrobatenvorfuhrung by Unknown."
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.364651",
+          "52.502195"
+        ]
+    }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Potsdamer Platz",
+        "marker-size": "medium",
+        "marker-color": "#3366FF",
+        "marker-symbol": "star-stroked",
+        "images": [
+          ['<img src="images/2506164891_ea15eff872_q.jpg" />',
+            "Der Sozialismus Siegt! by Roger."
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.376052",
+          "52.509662"
+        ]
+    }
+    }
+    , {
+      "type": "Feature",
+      "properties": {
+        "title": "Koeningsplatz",
+        "marker-size": "medium",
+        "marker-color": "#e5c278",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            '<iframe width="180"  src="http://www.youtube.com/embed/cklBBshc_uQ?rel=0" frameborder="0" allowfullscreen></iframe>',
+            "A tour of the Reichstag building."
+          ],
+          [
+            '<img src="images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg" />',
+            "The Reichstag building."
+          ]
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -34,6 +112,5 @@ var geoJson = [{
           "52.517539"
         ]
       }
-    },
-  ]
-  }];
+      }, ]
+      }];
